@@ -4,8 +4,11 @@
 Brechat
 {% endblock %}
 
+
 {% block content %}
 
 <H1 class="text-center  mt-4"> Welcome to Brevity </H1>
+
+<h2> {% if form.instance.pk %} Edit Tweet {% else %} Create Tweet {% endif %} </h2>
 
 {% endblock %}
