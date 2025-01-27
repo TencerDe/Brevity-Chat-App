@@ -132,5 +132,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATTICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 LOGIN_URL = '/account/login'
-LOGIN_REDIRECT_URL = '/brechat'
-LOGOUT_REDIRECT_URL = '/brechat'
+LOGIN_REDIRECT_URL = '/brechat/'
+LOGOUT_REDIRECT_URL = '/brechat/'
