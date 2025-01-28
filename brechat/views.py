@@ -53,7 +53,7 @@ def tweet_delete(request, tweet_id):
    
 def register(request):
     if request.method == 'POST':
-        form = UserRegistrationForm(request.Post)
+        form = UserRegistrationForm(request.POST)
         if form.is_valid():
             user = form.save(commit=False)
             user.set_password(form.cleaned_data['password1'])
