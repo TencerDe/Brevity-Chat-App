@@ -1,4 +1,5 @@
-Brevity
+**BREVITY**
+
 Brevity is a minimalist social platform designed for concise and impactful communication. Built with Django, it allows users to share short posts, follow others, and stay connected through a streamlined experience. Inspired by the simplicity of microblogging, Brevity focuses on essential features to foster meaningful interactions.
 
 Features
